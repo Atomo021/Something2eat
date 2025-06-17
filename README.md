@@ -12,4 +12,21 @@ Es importante destacar que, si bien la **idea** y la visión detrás de este min
 ## Un Futuro Ambicioso
 Dado el enfoque en la generación de código por IA y la naturaleza modular de este mini-mundo, el potencial de **Something2eat** va más allá de esta primera iteración. Nuestra ambición es que este proyecto sirva como plataforma para desarrollar **diferentes mini-juegos y simulaciones** adicionales, cada uno con sus propias reglas, objetivos y desafíos, todos nacidos de la misma sinergia entre la idea humana y la ejecución de la IA.
 
+## Licencia
+Este proyecto está distribuido bajo la licencia **Creative Commons Reconocimiento-NoComercial 4.0 Internacional (CC BY-NC 4.0)**.
+
+Esto significa que eres libre de:
+
+Compartir — copiar y redistribuir el material en cualquier medio o formato.
+
+Adaptar — remezclar, transformar y construir sobre el material.
+
+Siempre y cuando cumplas con los siguientes términos:
+
+Atribución — Debes dar crédito de manera adecuada, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puedes hacerlo de cualquier manera razonable, pero no de una manera que sugiera que el licenciante te respalda a ti o tu uso.
+
+No Comercial — No puedes utilizar el material con fines comerciales.
+
+Para ver el texto completo de la licencia, visita: [CC BY-NC 4.0 Internacional](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+
 ¡Esperamos que disfrutes explorando este pequeño universo en constante evolución!
