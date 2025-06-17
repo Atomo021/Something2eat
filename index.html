@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Mundo de Agentes ASCII</title>
+    <!-- Enlaza tu archivo CSS para los estilos visuales -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mini-Mundo de Agentes</h1>
+
+    <!-- Contenedor del cronómetro -->
+    <div id="game-timer">Tiempo: 00:00:000</div>
+
+    <!-- El área donde se dibuja el mundo de la simulación -->
+    <pre id="game-grid"></pre>
+
+    <!-- Botones de control de la simulación -->
+    <div>
+        <button id="startButton">Iniciar Simulación</button>
+        <button id="stepButton">Siguiente Paso</button>
+    </div>
+
+    <!-- Sección de estado del agente principal -->
+    <p>Estado del Agente 1: <span id="agent1-status">Cargando...</span></p>
+
+    <!-- Contenedor para el registro de mensajes (LOG) -->
+    <h2>Registro de Actividad</h2>
+    <div id="message-log" class="message-log">
+        <!-- Los mensajes se añadirán aquí dinámicamente por JavaScript -->
+    </div>
+
+    <!-- Sección del historial de tiempos -->
+    <div class="game-history-section">
+        <h2>Historial de Partidas</h2>
+        <button id="toggleHistoryButton">Ocultar Historial</button>
+        <div id="game-times-history" class="game-times-history">
+            <!-- El historial de tiempos se cargará aquí por JavaScript -->
+        </div>
+    </div>
+
+    <!-- Enlaza tu archivo JavaScript para la lógica del juego -->
+    <script src="script.js"></script>
+</body>
+</html>
