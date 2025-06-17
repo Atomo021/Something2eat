@@ -1,0 +1,185 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+    color: #eeeeee; /* Color de texto general */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+}
+
+h1 {
+    color: #00ff00; /* Verde neón para el título */
+    margin-bottom: 20px;
+}
+
+#game-grid {
+    font-size: 1.2em;
+    white-space: pre; /* Mantiene los espacios y saltos de línea del texto preformateado */
+    border: 1px solid #00ff00;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    /* Asegura que el grid no se desborde en pantallas pequeñas */
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+button {
+    background-color: #00ff00;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+button:hover {
+    background-color: #00cc00;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Estilo para el cronómetro */
+#game-timer {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #00FFFF; /* Cian */
+    margin-bottom: 10px;
+}
+
+
+/* --- Estilos para los elementos del mundo --- */
+.char-m { color: #8B4513; } /* Montaña - Marrón */
+.char-a { color: #1E90FF; } /* Agua - Azul dodger */
+.char-p { color: #32CD32; } /* Pasto - Verde lima */
+.char-r { color: #A9A9A9; } /* Roca - Gris oscuro */
+.char-A { color: #008000; } /* Árbol - Verde bosque */
+.char-C { color: #FFD700; } /* Comida - Dorado */
+.char-empty { color: #666666; } /* Espacio vacío - Gris */
+
+/* --- Estilos para el agente --- */
+.agent-live {
+    color: #FF4500; /* Agente vivo - Naranja rojizo */
+    font-weight: bold;
+}
+.agent-dead {
+    color: #FF0000; /* Agente muerto - Rojo brillante */
+    font-weight: bold;
+    text-decoration: line-through; /* Tachado para indicar que está "muerto" */
+}
+/* Nuevo estilo para el agente con "dolor" por hambre */
+.agent-hungry {
+    color: #FFFF00; /* Amarillo brillante para indicar dolor/hambre extrema */
+    /* Puedes añadir más estilos aquí, como un parpadeo o una sombra, para mayor efecto */
+    animation: pulse-hungry 1s infinite alternate; /* Animación de pulso */
+}
+
+@keyframes pulse-hungry {
+    from { opacity: 1; }
+    to { opacity: 0.5; }
+}
+
+/* Estilo para los agentes glotones - Ahora con animación para "velocidad" */
+.agent-glutton {
+    color: #8A2BE2; /* Azul violeta / Morado para agentes glotones */
+    animation: pulse-glutton 0.2s infinite alternate; /* Animación de pulso más rápida para glotones */
+}
+
+@keyframes pulse-glutton {
+    from { opacity: 1; text-shadow: 0 0 5px #8A2BE2; }
+    to { opacity: 0.7; text-shadow: 0 0 10px #8A2BE2; }
+}
+
+/* Estilo para los agentes prodigio */
+.agent-prodigy {
+    color: #7FFF00; /* Chartreuse para agentes prodigio */
+    text-shadow: 0 0 8px #7FFF00; /* Pequeña sombra brillante */
+}
+
+/* Nuevo: Estilo para los agentes borrachos */
+.agent-drunk {
+    color: #E9967A; /* DarkSalmon para agentes borrachos */
+    font-style: italic; /* Cursores para un toque de "tambaleo" */
+    text-shadow: 0 0 5px #E9967A; /* Sombra sutil */
+}
+
+/* Estilo para el nuevo contenedor de mensajes persistentes */
+.message-log {
+    background-color: #000000;
+    border: 1px solid #00FFFF;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%; /* Ancho del log */
+    max-width: 500px;
+    height: 100px; /* Altura fija para el log */
+    overflow-y: auto; /* Permite desplazamiento si hay muchos mensajes */
+    font-size: 0.85em;
+    text-align: left;
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+/* Estilo para los mensajes individuales dentro del log */
+.message-log p {
+    margin: 3px 0; /* Espacio entre mensajes */
+    padding: 0;
+    line-height: 1.2;
+    color: #00FFFF; /* Color por defecto para mensajes, puede ser sobrescrito por JS */
+}
+
+/* --- Nuevos estilos para el Historial de Partidas --- */
+.game-history-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    text-align: center;
+    width: 100%;
+}
+
+.game-history-section h2 {
+    color: #FFFF00; /* Amarillo brillante para el título del historial */
+    margin-bottom: 15px;
+}
+
+.game-times-history {
+    background-color: #000000;
+    border: 1px solid #FFFF00;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    max-height: 200px; /* Altura máxima para el historial con scroll */
+    overflow-y: auto;
+    font-size: 0.9em;
+    text-align: left;
+    box-shadow: 0 0 8px rgba(255, 255, 0, 0.5);
+    border-radius: 5px;
+}
+
+.game-times-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.game-times-history li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #555;
+    color: #F0F8FF; /* Azul alice para los elementos de la lista */
+}
+
+.game-times-history li:last-child {
+    border-bottom: none; /* Eliminar el borde inferior del último elemento */
+}
