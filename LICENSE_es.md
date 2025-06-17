@@ -1,9 +1,9 @@
 ### Esta es una traducción no oficial al español, Esta es una traducción no oficial de la licencia Creative Commons Attribution-NonCommercial 4.0 International. La versión legalmente vinculante es la versión en inglés en el archivo LICENSE.md
 ---
 
-Atribución-No Comercial 4.0 Internacional
+# Atribución-No Comercial 4.0 Internacional
 
-================================
+---
 
 Creative Commons Corporation ("Creative Commons") no es un bufete de abogados y
 no proporciona servicios legales ni asesoramiento legal. Distribución de
@@ -15,7 +15,7 @@ términos y condiciones, o cualquier información relacionada. Creative Commons
 renuncia a toda responsabilidad por los daños resultantes de su uso a la
 en la mayor medida posible.
 
-Uso de Licencias Públicas Creative Commons
+### Uso de Licencias Públicas Creative Commons
 
 Las licencias públicas de Creative Commons proporcionan un conjunto estándar de términos y
 condiciones que los creadores y otros titulares de derechos pueden utilizar para compartir
@@ -55,9 +55,9 @@ exhaustivos, y no forman parte de nuestras licencias.
      para el público:
     wiki.creativecommons.org/Consideraciones_for_licensees
 
-================================
+---
 
-Creative Commons Atribución-No Comercial 4.0 Público Internacional
+## Creative Commons Atribución-No Comercial 4.0 Público Internacional
 Licencia
 
 Al ejercer los Derechos con Licencia (definidos a continuación), Usted acepta y acepta
@@ -71,7 +71,7 @@ hacer que el Material con licencia esté disponible bajo estos términos y
 condiciones.
 
 
-Sección 1 - Definiciones.
+### Sección 1 - Definiciones.
 
   a. Material Adaptado significa material sujeto a Copyright y Similar
      Derechos derivados o basados en el Material Autorizado
@@ -142,7 +142,7 @@ Sección 1 - Definiciones.
      bajo esta Licencia Pública. Tu tiene un significado correspondiente.
 
 
-Sección 2 - Alcance.
+### Sección 2 - Alcance.
 
   a. Subvención de licencia.
 
@@ -222,7 +222,7 @@ Sección 2 - Alcance.
           propósitos.
 
 
-Sección 3 - Condiciones de licencia.
+### Sección 3 - Condiciones de licencia.
 
 Su ejercicio de los Derechos con Licencia está expresamente sujeto a la
 condiciones siguientes.
@@ -274,7 +274,7 @@ condiciones siguientes.
           Material de cumplimiento de esta Licencia Pública.
 
 
-Sección 4 -- Derechos de la base de datos de Sui Generis.
+### Sección 4 -- Derechos de la base de datos de Sui Generis.
 
 Donde los Derechos Licenciados incluyen los Derechos de Base de Datos Sui Generis que
 aplicar a su uso del Material con Licencia:
@@ -297,7 +297,7 @@ reemplace Sus obligaciones bajo esta Licencia Pública donde el Licenciado
 Los derechos incluyen otros Derechos de Autor y Derechos Similares.
 
 
-Sección 5 - Descargo de Responsabilidad y Limitación de Responsabilidad.
+### Sección 5 - Descargo de Responsabilidad y Limitación de Responsabilidad.
 
   a. A MENOS QUE EL LICENCIANTE REALICE LO CONTRARIO POR SEPARADO, A LA
      EN LA MEDIDA DE LO POSIBLE, EL LICENCIANTE OFRECE EL MATERIAL CON LICENCIA TAL CUAL
@@ -326,7 +326,7 @@ Sección 5 - Descargo de Responsabilidad y Limitación de Responsabilidad.
      renuncia a toda responsabilidad.
 
 
-Sección 6 - Plazo y terminación.
+### Sección 6 - Plazo y terminación.
 
   a. Esta Licencia Pública se aplica por el término de los Derechos de Autor y
      Derechos similares con licencia aquí. Sin embargo, si no cumple con
@@ -355,7 +355,7 @@ Sección 6 - Plazo y terminación.
      Licencia.
 
 
-Sección 7 - Otros Términos y Condiciones.
+### Sección 7 - Otros Términos y Condiciones.
 
   a. El Licenciante no estará obligado por ningún adicional o diferente
      términos o condiciones comunicados por Usted a menos que se acuerde expresamente.
@@ -388,7 +388,7 @@ Sección 8 - Interpretación.
      que se aplican al Licenciante o a Usted, incluso de la ley
      procesos de cualquier jurisdicción o autoridad.
 
-================================
+---
 
 Creative Commons no es parte de su público
 licencias. No obstante, Creative Commons puede optar por aplicar uno de
@@ -407,4 +407,4 @@ entendimientos o acuerdos sobre el uso de material con licencia. Para
 para evitar dudas, este párrafo no forma parte de la
 licencias públicas.
 
-Creative Commons puede ser contactado en creativecommons.org.
+Creative Commons puede ser contactado en www.creativecommons.org
