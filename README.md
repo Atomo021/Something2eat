@@ -1,5 +1,6 @@
 # ¡Bienvenido a Something2eat!
 ¡Prepárate para explorar un pequeño universo donde un Som inteligente (¡o no tanto!) lucha por sobrevivir! Este es el manual definitivo para entender cómo funciona tu simulación y cómo tu Som intentará dominar este peculiar ecosistema.
+
 ---
 
 ## Descubre el Mundo:
