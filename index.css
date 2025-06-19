@@ -183,3 +183,8 @@ p {
 .game-times-history li:last-child {
     border-bottom: none; /* Eliminar el borde inferior del último elemento */
 }
+
+.dwarfLogo {
+	width:100px;
+	height:100px;
+}
